@@ -41,3 +41,5 @@ git merge nomedabranch
 
 ## deletar a branch
 git branch -D nomedabranch
+=======
+
