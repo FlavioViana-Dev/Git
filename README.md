@@ -1,4 +1,5 @@
 # GIT E GITHUB
+https://www.youtube.com/watch?v=2alg7MQ6_sI
 
 ## Para iniciar o repositorio do projeto no git
 git init
@@ -41,3 +42,13 @@ git merge nomedabranch
 
 ## deletar a branch
 git branch -D nomedabranch
+
+
+### github repositorio
+
+## adicionando o repositrio remoto depois que criou o repostiro no github
+git remote add origin https://github.com/FlavioViana-Dev/GitCommand.git
+
+## sob atualização
+git push -u origin master
+
