@@ -19,3 +19,5 @@ git status
 git add nomedoarquivo.extensão
 ## depois tem commit novamente
 git commit -m "Descricão do commit"
+
+## Branches
