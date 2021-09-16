@@ -52,3 +52,8 @@ git remote add origin https://github.com/FlavioViana-Dev/GitCommand.git
 ## sob atualização
 git push -u origin master
 
+## para adicionar todas alteracoes
+git add .
+
+## para salvar o usuario senha do github
+git config credential.helper store
