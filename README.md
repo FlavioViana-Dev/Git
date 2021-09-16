@@ -21,6 +21,9 @@ git add nomedoarquivo.extensão
 ## depois tem commit novamente
 git commit -m "Descricão do commit"
 
+## posso usar o comando curto
+git commit -am "descricao"
+
 ## para exibir um ponto da historica especifica esse numero eu adquiro no git log
 git show 997be9399c5c66effd75d41c6ef202de4a53a8b5
 
@@ -59,3 +62,7 @@ git add .
 
 ## para salvar o usuario senha do github
 git config credential.helper store
+
+## Recuperar um projeto já criado do GITHUB
+git clone "https://github.com/flavio/projeto"
+
