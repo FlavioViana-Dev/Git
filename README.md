@@ -49,8 +49,10 @@ git branch -D nomedabranch
 ## adicionando o repositrio remoto depois que criou o repostiro no github
 git remote add origin https://github.com/FlavioViana-Dev/GitCommand.git
 
-## sob atualização
+## sob atualização 
 git push -u origin master
+### depois posso usar apenas
+git push 
 
 ## para adicionar todas alteracoes
 git add .
