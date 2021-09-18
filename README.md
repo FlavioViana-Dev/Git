@@ -1,33 +1,34 @@
 # GIT E GITHUB
 https://www.youtube.com/watch?v=2alg7MQ6_sI
 
-## Para iniciar o repositorio do projeto no git
+## Iniciar um novo repositório no GIT
 git init
 
-## para adionar um arquivo no git(coloca o arquivo em observacao no git)
+## Adionar um arquivo no GIT
 git add nomedoarquivo.extensão
 
-## para concluir a inclusão do arquivo no git
+## Concluir a inclusão do arquivo no GIT
 git commit -m "Descricão do commit"
 
-## para visualizar os pontos na historia de
+## Visualizar os pontos na historia
 git log
 
-## mostra o status do git
+## Exibir o status do GIT
 git status
 
-## para atualizar um arquivo no git
+## Atualizar um arquivo no git
 git add nomedoarquivo.extensão
-## depois tem commit novamente
+
+## Concluir a alteração
 git commit -m "Descricão do commit"
 
-## posso usar o comando curto
+## Comando curto para o commit
 git commit -am "descricao"
 
-## para exibir um ponto da historica especifica esse numero eu adquiro no git log
+## Exibir um ponto especifico na historia. Usar o identificador gerado no log
 git show 997be9399c5c66effd75d41c6ef202de4a53a8b5
 
-## Mostra a ultima modificacao
+## Exibir a ultima modificacao
 git show
 
 ## Branches
@@ -35,8 +36,9 @@ git branch feature/cart
 
 ## Muda de time line
 git checkout feature/cart
+git checkout --
 
-## ver todas as linhas do tempo 
+## Ver todas as linhas do tempo 
 git branch
 
 ## unir as time line
@@ -46,23 +48,27 @@ git merge nomedabranch
 ## deletar a branch
 git branch -D nomedabranch
 
-
-### github repositorio
-
-## adicionando o repositrio remoto depois que criou o repostiro no github
-git remote add origin https://github.com/FlavioViana-Dev/GitCommand.git
-
-## sob atualização 
-git push -u origin master
-### depois posso usar apenas
-git push 
-
-## para adicionar todas alteracoes
+## Adicionar todas as alteracoes
 git add .
 
-## para salvar o usuario senha do github
+<HR>
+
+# GITHUB REPOSITORIO
+
+## Conectar o repositorio local(GIT) com o repositorio remoto(GITHUB). O repostiro deve ser criado antes no GITHUB
+git remote add origin https://github.com/FlavioViana-Dev/GitCommand.git
+
+## Atualizar o GITHUB 
+git push -u origin master
+
+### Atualizar o GITHUB 
+git push 
+
+## Salvar o usuario senha do GITHUB
 git config credential.helper store
 
 ## Recuperar um projeto já criado do GITHUB
 git clone "https://github.com/flavio/projeto"
 
+## Baixar atualização no servidor GITHUB
+git pull
