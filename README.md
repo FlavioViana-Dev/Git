@@ -4,7 +4,7 @@ https://www.youtube.com/watch?v=2alg7MQ6_sI
 ## Iniciar um novo repositório no GIT
 git init
 
-## Adionar um arquivo no GIT
+## Adicionar um arquivo no GIT
 git add nomedoarquivo.extensão
 
 ## Concluir a inclusão do arquivo no GIT
