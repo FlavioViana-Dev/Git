@@ -48,6 +48,15 @@ git merge nomedabranch
 ## deletar a branch
 git branch -D nomedabranch
 
+## adicionar nova branch
+git checkout -b MinhaNovaBrach
+Depois, quando quiser subir a branch, faça os commits:
+
+git commit -m 'Comentário do commit da minha nova branch'
+Depois, subindo de fato:
+
+git push --set-upstream origin MinhaNovaBrach
+
 ## Adicionar todas as alteracoes
 git add .
 
